@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GIGI CODEX | Search Input</title>
+     <link rel="icon" href="img/profil.png" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <img src="img/gigicodex.jpg" alt="gigi codex">
+        <h1>GIGI CODEX</h1>
+    </div>
+    <!-- Bloc contenant l'input de recherche -->
+    <div class="bloc-search">
+        <h3>Recherche dans la search Bar</h3>
+        <!-- Input de recherche avec un événement oninput qui appelle la fonction onSearch() -->
+        <input type="search" oninput="onSearch()" class="search" name="Recherche" id="Recherche" placeholder="Tape pour rechercher...">
+    </div>
+    
+    <!-- Liste des éléments à filtrer -->
+    <ul id="list">
+        <li>Ananas</li>
+        <li>Banane</li>
+        <li>Tomate</li>
+        <li>Patate</li>
+        <li>Macabo</li>
+        <li>Carotte</li>
+        <li>Pamplemousse</li>
+        <li>Oignon</li>
+        <li>Piment</li>
+        <li>Orange</li>
+    </ul>
+
+    <footer>
+         <div class="social">
+            <h4>Nous suivre sur : </h4>
+            <a href="https://www.tiktok.com/@gigicodex" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+             </a>
+             <a href="https://www.facebook.com/gigicodex" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+             </a>
+         </div>
+        <p>&copy; 2024 GIGI CODEX</p>
+    </footer>
+    <!-- Inclusion du fichier JavaScript contenant la fonction de recherche -->
+    <script src="script.js"></script>
+</body>
+</html>
